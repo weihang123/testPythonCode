@@ -19,6 +19,6 @@ print(tuple + tinytuple)  # 连接元组
 
 #tuple0~1个元素的特殊写法
 tup = ()
-print(tup)
+print(type(tup))
 tup02 = (1,)
-print(tup02)
+print(type(tup02))

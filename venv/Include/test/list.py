@@ -37,3 +37,72 @@ print(add)
 lit =[]
 print(lit)
 
+
+list01 =[1,2,3,4,5]
+list02 =[6,7,8,9,10]
+#查看列表长度
+print(len(list01))
+#列表拼接
+#print(list01+list02)
+#list02+=list01
+#print(list02)
+#打印重复列表
+print(list01*2)
+#用in查看字符是否在list中存在
+print(10 in list01)
+
+#反向列表中的元素 list.reverse()
+#list02.reverse()
+print(list02)
+
+#移除列表中的某个元素，默认最后一个 list.pop(不填写参数，默认最后一个元素值被删除)
+# list02.pop()
+# print(list02)
+
+#按照索引位置移除 list.pop(索引位置)
+# list02.pop(1)
+# print(list02)
+
+#查找10元素在哪个索引位置上list.index(要查询的元素值)
+print(list02.index(10))
+
+#在指定位置上插入元素 list.inster(索引位置，插入元素)
+list02.insert(2,"我是inster")
+print(list02)
+
+# 清空列表 list.clear
+# list02.clear()
+# print(list02)
+
+#复制列表 list.copy()
+list03=list02.copy()
+print(list03)
+
+#列表排序 list.sort(按照参数进行排序，比较元素通过该参数进行排序，倒序/正序(默认正序))
+list04 =['b','c','a','g','f','e','d']
+list04.sort()
+print(list04)
+#按照降序排序
+list04.sort(reverse=True)
+print(list04)
+#按照正序排序
+list04.sort(reverse=False)
+print(list04)
+
+#按照指定列表中的元素排序
+# def test(elem):
+#     return elem[2]
+#
+# list05 =[(1,4,5),(4,'ni'),(2,1,4),(1,2,3,4)]
+#
+# list05.sort(key=test)
+#
+# print(list05)
+
+
+
+
+
+
+
+

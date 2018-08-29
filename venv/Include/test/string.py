@@ -26,3 +26,24 @@ print(r'\nsdsd')
 # print('qweasd\n'*a)
 #
 # print('我要学python')
+
+str ="nihao"+"sdsd\""
+
+
+
+if("y" in str):
+    print("存在n字母")
+else:
+    print("不包含字符")
+str1="adcdeFASDSDghihj"
+
+#输出字符创中最小的字母
+print(min(str1))
+#输出字符串中最大的字母
+print(max(str1))
+#查询字符串的长度
+print(len(str1))
+#讲字符串中的大写变为小写
+print(str1)
+print(str1.swapcase())
+print(str1.lower())

@@ -26,4 +26,17 @@ print(type(d))
 q,w,e = 1,1.5,True
 print(type(q),type(w),type(e))
 
+#数据字典转换类型
+
+i =10
+#转换为浮点型
+print(float(i))
+u =1.0
+#把浮点型转换为int型
+print(int(u))
+print(complex(u))
+
+r=8 % 3
+print(r)
+
 
