@@ -14,6 +14,7 @@ dic ={'name':'小明','age':12,'height':176.5}
 print(dic['name'])
 #输出所有key
 print(dic.keys())
+print(list(dic.keys()))
 #输出所有values
 print(dic.values())
 
@@ -21,4 +22,29 @@ a=dict([('name','小明')])
 print(a)
 dict_a={'Runoob':1, 'aaa':2, 'dddd':3}
 e=dict_a['aaa']
+dic01 =dic.copy()
+print("----------")
+dic.clear()
+print(dic01)
+
+#创建新字典 dict.fromkeys()
+tup =("xiaoming","nihao","xuexipython")
+i =dict.fromkeys(tup,10)
+print(i)
+print(str(i))
+
+#获取字段中指定键对应的值，如果没有对应值执行默认值 dict.get("获取字段的key","没有key取默认值")
+print(dic01.get("name","没有对应值"))
+print("zhi :%s" % dic01.get("name1","没有对应值"))
+
+#查看key是否存在某个key
+print("name" in dic01)#True
+print("nn" in dic01)#False
+
+print(dic01.items())
+
+
+
+
+
 

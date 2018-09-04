@@ -98,6 +98,10 @@ print(list04)
 # list05.sort(key=test)
 #
 # print(list05)
+lis =[1,2,3]
+lis01 =[4,5]
+lis.extend(lis01)
+print(lis)
 
 
 
